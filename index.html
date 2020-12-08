@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="static/css/style.css">
+
+  <title>Destinations</title>
+</head>
+
+<body>
+
+  <div id="container">
+
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+
+  <script>
+
+    var firebaseConfig = {
+      apiKey: "AIzaSyDVYemqzAUY8wIJ6awoFSKvpjKfs4nE42U",
+      authDomain: "books-exercise-23750.firebaseapp.com",
+      databaseURL: "https://books-exercise-23750.firebaseio.com",
+      projectId: "books-exercise-23750",
+      storageBucket: "books-exercise-23750.appspot.com",
+      messagingSenderId: "937630169570",
+      appId: "1:937630169570:web:4734a3b04bdab990ec21bb"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
+  <script
+    src="https://www.gstatic.com/firebasejs/8.0.2/firebase-firestore.js">// make sure to have www.gstatic.com/firebasejs</script>
+
+  
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+  <script src="node_modules/sammy/lib/sammy.js"></script>
+  <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+  <script src="node_modules/sammy/lib/plugins/sammy.handlebars.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
